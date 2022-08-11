@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="97500" started-at="2022-08-09T10:38:48 IST" finished-at="2022-08-09T10:40:25 IST">
+    <groups>
+      <group name="SMOKE">
+        <method signature="TC_Pepsi_Test.main()[pri:0, instance:Testcase.TC_Pepsi_Test@6b09bb57]" name="main" class="Testcase.TC_Pepsi_Test"/>
+        <method signature="TC_airtel_002_Test.demo()[pri:0, instance:Testcase.TC_airtel_002_Test@63753b6d]" name="demo" class="Testcase.TC_airtel_002_Test"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Test" duration-ms="97500" started-at="2022-08-09T10:38:48 IST" finished-at="2022-08-09T10:40:25 IST">
+      <class name="Testcase.TC_airtel_002_Test">
+        <test-method status="PASS" signature="before()[pri:0, instance:Testcase.TC_airtel_002_Test@63753b6d]" name="before" is-config="true" duration-ms="43105" started-at="2022-08-09T10:38:48 IST" finished-at="2022-08-09T10:39:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:Testcase.TC_airtel_002_Test@63753b6d]" name="demo" duration-ms="3534" started-at="2022-08-09T10:39:31 IST" finished-at="2022-08-09T10:39:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="after()[pri:0, instance:Testcase.TC_airtel_002_Test@63753b6d]" name="after" is-config="true" duration-ms="1743" started-at="2022-08-09T10:39:34 IST" finished-at="2022-08-09T10:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Testcase.TC_airtel_002_Test -->
+      <class name="Testcase.TC_Pepsi_Test">
+        <test-method status="PASS" signature="before()[pri:0, instance:Testcase.TC_Pepsi_Test@6b09bb57]" name="before" is-config="true" duration-ms="10191" started-at="2022-08-09T10:39:36 IST" finished-at="2022-08-09T10:39:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="main()[pri:0, instance:Testcase.TC_Pepsi_Test@6b09bb57]" name="main" duration-ms="36317" started-at="2022-08-09T10:39:46 IST" finished-at="2022-08-09T10:40:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="after()[pri:0, instance:Testcase.TC_Pepsi_Test@6b09bb57]" name="after" is-config="true" duration-ms="2482" started-at="2022-08-09T10:40:23 IST" finished-at="2022-08-09T10:40:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Testcase.TC_Pepsi_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
