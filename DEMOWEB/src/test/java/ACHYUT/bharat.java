@@ -9,6 +9,7 @@ public class bharat {
 		System.setProperty("webdriver.chrome.driver","./Softwares/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.cadbury.com");
+		
 
 	}
 }
